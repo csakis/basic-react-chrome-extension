@@ -1,15 +1,14 @@
 import React from 'react';
+import { Container, Button } from '@material-ui/core';
 
 function App() {
   return (
-    <div>
-      <header>
-        <p>Kukucs</p>
-        <a href="https://reactjs.org">Learn React</a>
-      </header>
-      <h1>Holly molly! Its working</h1>
-      <h2>It also reloads</h2>
-    </div>
+    <Container>
+      <h1>It's working</h1>
+      <Button variant="contained" color="primary">
+        Button
+      </Button>
+    </Container>
   );
 }
 
